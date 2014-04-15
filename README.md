@@ -7,25 +7,40 @@ Susimoda - Web Site
 ##How to use the project:
 
 
-###How to download / clone from GitHub Repository
+###How to clone from GitHub Repository
 
-* download repository:  [Susimoda Repository](https://github.com/cibily/Susimoda.git)
-* create a clone with SmartGit
+If is your first time we suggest to **read this turorial** [Cloning an Existing Repository](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository)
+
+* Susimoda's url to clone a repository is [Susimoda Repository](https://github.com/cibily/Susimoda.git)
 
 
 ###How to run locally
 
-* launch this command with Terminal program:
+To visualize the project, during the development, we suggest to use a **web server**.  
+Launch the **Terminal** programm in the folder of the project and write this command:
 
-	- sudo npm install -g http-server (only the first time)
-	- http-server
-	- http-server ~/MyWorkingFolder
-	- http://localhost:8080
+    sudo npm install -g http-server 
+    
+Runn this command **only the first time** when you need to install the web server. For this operation is request the password of system.
 
-Watch the complete guide: [Movebleapp.com](http://movableapp.com/2014/03/quick-nodejs-http-server/)
+After this you can write the command to launch the **web server**:
+
+    http-server
+ 
+
+This default configuration run an HTTP Server available at:
+
+    http://localhost:8080
+
+
+I can read the complete **tutorial** on: [Movebleapp.com](http://movableapp.com/2014/03/quick-nodejs-http-server/)
 
 
 ###How to add issues 
 
-A stackeholder can write a Issue on GitHub to report a problem or bug.
+A stackeholder can write issues on GitHub web site to report a problem or bug.
+Every issue have a ID number preceded by the symbol **#**.  
+When the team fixed one issue the stackeholder can see the issue as **closed**.
+ 
+
 
