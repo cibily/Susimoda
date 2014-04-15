@@ -1,0 +1,79 @@
+body {
+	border-color:#C7F66F;
+	background:#C7F66F;
+}
+
+#header-wrapper, #footer-wrapper {
+	background:#659A00;
+}
+
+
+
+/**
+ * Header
+ */
+#titling h2 a {
+	color:#444;
+}
+
+
+/**
+ * Main Menu
+ */
+#mm ul li a {
+	border:none;
+	color:#fff;
+}
+#mm ul li a:hover, #mm ul li a.selected {
+	border:none;
+	background:#C7F66F;
+	color:#000;
+}
+
+/* Sub Menus */
+#mm ul li ul {
+	border:none;
+	background-color:#C7F66F;
+}
+#mm ul li ul li, #mm ul li ul li a {
+	border:none;
+	color:#000;
+}
+#mm ul li ul li a:hover {
+	background:#659A00;
+	color:#fff;
+}
+
+
+
+/**
+ * Typo
+ */
+#content-wrapper {}
+
+a {
+	color:blue;
+}
+
+
+h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
+	color:#659A00;
+}
+
+
+
+/**
+ * Footing
+ */
+#footer-wrapper .lbox {
+	color:#fff;
+}
+#footer-wrapper .lbox a {
+	color:#fff;
+	text-decoration:underline;
+}
+
+#credits-wrapper .lbox a {
+	color:#000;
+	font-weight:bold;
+}

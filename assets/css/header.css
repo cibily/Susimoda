@@ -1,0 +1,240 @@
+/**
+ * cavamvicenza.it
+ * Heading styles, menu, titling, etc.
+ *
+ * Marco Pegoraro
+ * marco(at)adessoweb(dot)biz
+ * 11/09/2010
+ */
+
+
+
+/**
+ * Logo Image Replacement
+ */
+
+#titling {
+	float:left;
+}
+
+#titling h1 {
+	margin:0;
+	padding: 20px 0 0 0;
+}
+
+#titling h1 a {
+	color:black;
+}
+
+#titling h2 {
+	font-size:0.9em;
+	padding: 0 0 20px 0;
+	margin:0;
+}
+
+#logo {
+	text-align: center;
+	float:right;
+}
+
+
+
+
+
+/**
+ * Main Menu
+ */
+
+#mm {
+	padding:						10px 0 0 0;
+	text-align:						left;
+}
+
+
+#mm.ie {
+	position:						absolute;
+	top:							0px;
+	left:							50%;
+	
+	display:						block;
+	width:							970px;
+	
+	margin-left:					-485px;
+}
+
+#mm ul {
+	margin:							0;
+	list-style:						none;
+	font-size:						1.1em;
+}
+
+#mm ul li {
+	position:						relative;
+	display:						inline;
+	float:							left;
+}
+
+#mm ul li a {
+	display:						block;
+	float:							left;
+	border:							1px solid #E6E1DD;
+	
+	-moz-border-radius:				5px;
+	-webkit-border-radius:			5px;
+	border-radius:					5px;
+	
+	padding:						4px 5px 4px 5px;
+	margin: 						0 5px;
+	
+	color:							#979088;
+}
+
+#mm ul li a:hover, #mm ul li a.selected {
+	background:						#F4F0EF;
+	color:							#E11C51;
+	border-color:					#EEEAE7;
+}
+	
+	#mm ul li ul {
+		position:					absolute;
+		top:						30px;
+		left:						-5px;
+		z-index:					9999;
+		
+		display:					none;
+		width:						250px;
+		
+		background:					#E6E1DD;
+		border:						1px solid #979088;
+		-webkit-border-radius:		5px;
+		-moz-border-radius:			5px;
+		border-radius:				5px;
+		padding:					5px;
+		
+		font-size:					0.8em;
+	}
+	
+	#mm ul li ul li, #mm ul li ul li a {
+		float:						none;
+	}
+
+
+
+
+
+/**
+ * Slide show home page.
+ */
+#hslide {
+	position:						absolute;
+	top:							0;
+	right:							0;
+	
+	display:						block;
+	width:							725px;
+	height:							425px;
+}
+		
+	/* Bottoni di progressione */
+	
+	#hslide a.prev, #hslide a.prev span, #hslide a.next, #hslide a.next span {
+		position:					absolute;
+		top:						0;
+		left:						0;
+		
+		display:					block;
+		width:						40px;
+		height:						435px;
+		
+		float:						left;
+	}
+	
+	#hslide a.prev, #hslide a.next {
+		position:					relative;
+	}
+	
+	#hslide a.prev span, #hslide a.next span {
+		background-image:			url(img/hslide_nav.jpg);
+	}
+	
+	#hslide a.next {
+		float:						right;
+	}
+	
+	#hslide a.next:hover span {
+		background-position:		-40px 0;
+	}
+	
+	#hslide a.prev span {
+		background-position:		-80px 0;
+	}
+	
+	#hslide a.prev:hover span {
+		background-position:		-120px 0;
+	}
+	
+	/* Carosello */
+	
+	#hslide ul {
+		display:					block;
+		width:						645px;
+		height:						425px;
+		overflow:					hidden;
+		
+		list-style:					none;
+	}
+	
+	#hslide ul li {
+		display:					block;
+		width:						635px;
+		height:						425px;
+		overflow:					hidden;
+		display:					inline;
+		float:						left;
+	} #hslide ul>li { width: 645px; }
+	
+	#hslide ul li a {
+		
+	}
+	
+	#hslide ul li a img {
+		border:						none;
+		float:						left;
+	}
+	
+	#hslide {
+		text-align: right;
+	}
+	
+	#hslide .caroufredsel_wrapper {
+		margin:auto;
+		margin-right:0;
+		margin-top:0;
+		
+	}
+	#hslide .caroufredsel_wrapper ul {
+		margin:0;
+	}
+
+
+
+
+
+
+
+
+
+
+#footer-wrapper .lbox, #credits-wrapper .lbox {
+	padding:						30px 0 30px 0;
+	text-align:						center;
+	
+	font-family:					Verdana;
+	font-size:						0.7em;
+}
+#footer-wrapper .lbox, #footer-wrapper .lbox a {
+	color:							#E21E50;
+}
+
+
+#credits-wrapper .lbox {}

@@ -1,0 +1,247 @@
+/**
+ * Photo002 Theme
+ * jNews Plugin
+ */
+
+
+/**
+ * PAGINA ARCHIVIO NEWS
+ */
+.jnews-archive {}
+
+	.jnews-archive .jnews-title {}
+	
+	.jnews-archive .jnews-subtitle {}
+	
+	.jnews-archive .jnews-info {}
+	
+	.jnews-archive .jnews-pagination {
+		border-top:1px solid #ddd;
+		padding:5px 10px 10px 10px;
+		margin: 20px 0 20px 0;
+		text-align: right;
+	}
+	
+	.jnews-archive .jnews-list {
+		display:block;
+		margin:0;
+		padding:0;
+		list-style:none;
+		list-style-position:inside;
+	}
+		
+		.jnews-archive .jnews-list-item {
+			display:block;
+			margin:40px 0 10px 0;
+		}
+		
+			.jnews-archive .jnews-list .jnews-handler {
+				display:block;
+				font-family:Arial;
+				font-weight:bold;
+				border-bottom: 1px solid #ddd;
+				padding: 4px 0 4px 20px;
+				margin: 0 0 4px 0;
+				background:#eee;
+				
+				-webkit-border-top-left-radius: 5px;
+				-webkit-border-top-right-radius: 5px;
+				-moz-border-radius-topleft: 5px;
+				-moz-border-radius-topright: 5px;
+				border-top-left-radius: 5px;
+				border-top-right-radius: 5px;
+			}
+			
+				.jnews-archive .jnews-list .jnews-handler a {
+					text-decoration:none;
+				}
+			
+			.jnews-archive .jnews-list .jnews-icon {
+				display:block;
+				border:1px solid #ddd;
+				float:right;
+				margin: 0 0 10px 10px;
+			}
+			
+				.jnews-archive .jnews-list .jnews-icon img {
+					border:none;
+					float:left;
+				}
+			
+			.jnews-archive .jnews-list .jnews-date {
+				font-weight:bold;
+				font-size:0.8em;
+				margin: 2px 10px 5px 20px;
+				float:right;
+				color:black;
+			}
+			
+			.jnews-archive .jnews-list .jnews-abstract {
+				margin: 0 0 0 20px;
+				font-family:Verdana;
+				font-size:0.9em;
+				letter-spacing:1px;
+				line-height: 1.5em;
+			}
+			
+			.jnews-archive .jnews-list .jnews-link {
+				clear:both;
+				display: block;
+				margin: 0 0 0 0;
+				padding:2px;
+				text-align: right;
+			}
+			
+				.jnews-archive .jnews-list .jnews-link a {
+					display: block;
+					font-size:0.9em;
+					text-decoration:none;
+				}
+		
+
+
+
+
+
+/**
+ * PAGINA LETTURA NEWS
+ */
+.jnews-read {}
+	
+	.jnews-read .jnews-read-title {}
+		.jnews-read .jnews-read-title a {
+			text-decoration:none;
+		}
+	
+	.jnews-read .jnews-read-date {
+		display:block;
+		margin: 0 0 5px 0;
+		font-weight:bold;
+		font-size: 0.9em;
+		color:black;
+	}
+	
+	.jnews-read .jnews-read-info {
+		display:block;
+		background: #eee;
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		padding:5px;
+		
+	}
+	
+		.jnews-read .jnews-read-info .jnews-read-thumb {
+			display:block;
+			border:1px solid #ddd;
+			float:right;
+			margin: 0 0 10px 10px;
+		}
+			
+			.jnews-read .jnews-read-info .jnews-read-thumb img {
+				border:none;
+				float:left;
+			}
+		
+		.jnews-read .jnews-read-info .jnews-read-abstract {			
+			font-family:Verdana;
+			font-size:0.9em;
+			letter-spacing:1px;
+			line-height: 1.5em;
+		}
+	
+	.jnews-read .jnews-read-archive {
+		display: block;
+		background: #ddd;
+		-webkit-border-bottom-right-radius: 3px;
+		-webkit-border-bottom-left-radius: 3px;
+		-moz-border-radius-bottomright: 3px;
+		-moz-border-radius-bottomleft: 3px;
+		border-bottom-right-radius: 3px;
+		border-bottom-left-radius: 3px;
+		padding:5px;
+		text-align: right;
+	}
+	
+		.jnews-read .jnews-read-archive a {
+			text-decoration:none;
+			font-size: 0.9em;
+		}
+	
+	.jnews-read .jnews-read-content {
+		display:block;
+		margin: 30px 0 30px 0;
+	}
+
+
+
+
+
+
+
+/**
+ * Latest News
+ * ICP Integration Element
+ */
+.jnews-latest-news {
+	display:block;
+	margin: 0 0 15px 0;
+	list-style:none;
+	list-style-position:inside;
+}
+
+	.jnews-latest-news .jnews-latest-news-item {
+		position: relative;
+		display:block;
+		margin: 0 0 5px 0;
+		background: #eee;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		padding:5px;
+		
+		letter-spacing: 1px;
+		font-size:0.85em;
+	}
+	
+		.jnews-latest-news .jnews-latest-news-item .jnews-latest-news-item-title {
+			display:block;
+			font-weight:bold;
+			border-bottom:1px solid #aaa;
+			margin: 0 0 0 0;
+		}
+		
+			.jnews-latest-news .jnews-latest-news-item .jnews-latest-news-item-title a {
+				text-decoration:none;
+			}
+		
+		.jnews-latest-news .jnews-latest-news-item .jnews-latest-news-item-date {
+			position: absolute;
+			top:5px;
+			right:5px;
+			color:black;
+		}
+		
+		.jnews-latest-news .jnews-latest-news-item .jnews-latest-news-item-desc {
+			line-height: 1.5em;
+			border-top:1px solid #fff;
+			padding-top:5px;
+		}
+		
+		.jnews-latest-news .jnews-latest-news-item .jnews-latest-news-item-icon {
+			display:block;
+			border:1px solid #666;
+			float:left;
+			margin: 5px 5px 5px 0;
+		}
+			
+			.jnews-latest-news .jnews-latest-news-item .jnews-latest-news-item-icon img {
+				border:none;
+				float:left;
+			}
+		
+		.jnews-latest-news .jnews-latest-news-item .jnews-latest-news-item-link {}
+		

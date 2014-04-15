@@ -1,0 +1,55 @@
+/**
+ * SimpleCalendar Widget
+ * Basic Style
+ */
+
+.wdg-simple-calendar .calendar {}
+
+.wdg-simple-calendar .calendar tr td {
+	padding:5px;
+	text-align: center;
+}
+
+.wdg-simple-calendar .calendar tr td a {
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.wdg-simple-calendar .calendar tr td.calendarHeader {
+	font-weight:bold;
+	padding-top: 2px;
+	padding-bottom:2px;
+}
+
+.wdg-simple-calendar .calendar tr td.calendarToday {
+	font-weight:bold;
+}
+.wdg-simple-calendar .calendar tr td.calendarToday, .wdg-simple-calendar .calendar tr td.calendarToday a {
+	text-decoration:none;
+}
+
+
+
+/* Intestazione */
+
+.wdg-simple-calendar .calendar tr.yearRow {}
+
+.wdg-simple-calendar .calendar tr.yearRow td {
+	font-weight:bold;
+}
+
+.wdg-simple-calendar .calendar tr.yearRow td a {
+	font-weight:bold;
+	text-decoration:none;
+}
+.wdg-simple-calendar .calendar tr.yearRow td a:hover {
+	text-decoration:underline;
+}
+
+.wdg-simple-calendar .calendar tr.yearRow td.calendarHeader {
+	border:none;
+}
+
+.wdg-simple-calendar .calendar tr td.tdLeft {}
+
+.wdg-simple-calendar .calendar tr td.tdRight {}

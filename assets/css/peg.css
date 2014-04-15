@@ -1,0 +1,179 @@
+/**
+ * PEG's CSS Library
+ * @Author:		Marco Pegoraro
+ * @Version:	1.0
+ * @Start:		31-10-2009
+ * 
+ * Style di azzeramento e classi generiche.
+ * 
+ */
+
+
+/* ************************************************************** *
+ * AZZERAMENTO                                                    *
+ * ************************************************************* */
+
+ html,body
+,ul,ol,li,dt,dd
+,h1,h2,h3,h4,h5,h6
+,p,div,pre,blockquote
+,span,font,b,u,i,center
+,strong,em,strike,sub,sup,small,tt,var
+,applet,object,iframe
+,form,fieldset,label
+,table,caption,thead,tbody,tr,th,td
+{
+	margin:							0;
+	padding:						0;
+	border:							0;
+	outline:						0;
+	vertical-align:					baseline;
+	background:						transparent;	
+}
+
+ body
+{
+	line-height:					1;
+	font-size:						100.01%;
+}
+
+h1{font-size: 2.4em}
+h2{font-size: 1.8em}
+h3{font-size: 1.4em}
+h4{font-size: 1.2em}
+h5{font-size: 1em}
+h6{font-size: 0.85em}
+
+ ul
+,ol
+{
+	list-style-position:			outside;
+}
+
+ img
+{
+	border:							none;
+}
+
+ :focus
+,:active
+{
+	outline:						0;
+}
+
+ blockquote
+,q
+{
+	quotes:							none;
+}
+
+ ins
+{
+	text-decoration:				none;
+}
+
+ del
+{
+	text-decoration:				line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+ table
+{
+	border-collapse:				collapse;
+	border-spacing:					0;
+}
+
+
+
+
+/* ************************************************************** *
+ * STILI PREDEFINITI                                              *
+ * ************************************************************* */
+
+/**
+ * Comportamento predefinito dei link
+ */
+ a {
+	color:				blue;
+	text-decoration:	none;
+}
+ a:hover {
+	text-decoration:	underline; 
+}
+
+/**
+ * Elemento strutturale.
+ * Non viene visualizzato nella resa di immagine.
+ */
+.str {
+	display:			none;
+}
+
+/**
+ * Elemento di clear floating.
+ * Solitamente utilizzato con uno SPAN a chiusura di layouting
+ * multicolonna in floating.
+ */
+.clr {
+	display:			block;
+	height:				0;
+	overflow:			hidden;
+	margin:				0;
+	clear:				both;
+}
+
+
+/**
+ * Elemento colonna e Allineamenti
+ */
+.col {
+	display:			block;
+	overflow:			hidden;
+	margin:				0;
+	float:				left;
+}
+.left, .l {
+	float:				left;
+}
+.right, .r {
+	float:				right;
+}
+.center, .c {
+	text-align:			center;
+}
+.auto, .a {
+	margin:				auto;
+	margin-left:		auto;
+	margin-right:		auto;
+}
+
+
+/**
+ * Formattazione del testo generica
+ */
+.bold, .b {
+	font-weight:		bold;
+}
+.italic, .i {
+	font-style:			italic;
+}
+.underline, .u {
+	text-decoration:	underline;
+}
+
+
+
+/**
+ * Lista in linea comune
+ */
+ul.line {
+	margin:				0;
+	padding:			0;
+	list-style:			none;
+}
+ul.line li {
+	display:			inline;
+	padding:			0 10px 0 10px;
+}
+

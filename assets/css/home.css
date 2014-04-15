@@ -1,0 +1,57 @@
+/**
+ * cavamvicenza.it
+ * Stili specifici home page
+ *
+ * Marco Pegoraro
+ * marco(at)adessoweb(dot)biz
+ * 11/09/2010
+ */
+
+
+
+/**
+ * Adattamento altezza intestazione.
+ */
+body.home #header-wrapper .lbox {
+	height:								425px;
+	overflow:							hidden;
+}
+
+
+
+
+/**
+ * Adattamenti main menu.
+ */
+body.home #mm {
+	position:							absolute;
+	bottom:								30px;
+	top:auto;
+	left:								0px;
+	
+	display:							block;
+	width:								245px;
+	height:auto;
+	
+	margin:								0;
+	padding:							0;
+}
+
+body.home #mm ul li, body.home #mm ul li a {
+	float:								none;
+}
+
+
+
+
+
+/**
+ * Varianti "home_small"
+ */
+body.home_small #header-wrapper .lbox {
+	height:250px;
+}
+body.home_small #hslide {
+	height:250px;
+	overflow:hidden;
+}

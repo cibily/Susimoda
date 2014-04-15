@@ -1,0 +1,138 @@
+/**
+ * cavamvicenza.it
+ * Sheet description.
+ *
+ * Marco Pegoraro
+ * marco(at)adessoweb(dot)biz
+ * 11/09/2010
+ */
+
+body {
+	border-top:								10px solid #E6E1DD;
+	background:								#f2f2f2;
+	text-align:								center;
+}
+
+
+
+
+
+
+
+/**
+ * Layout row
+ * Full page width.
+ */
+.lrow {}
+
+
+/**
+ * Layout Box Wrapper
+ * Fixed width, centered into body
+ */
+.lbox {
+	position:								relative;
+	display:								block;
+	width:									970px;
+	margin:									0 auto 0 auto;
+	text-align:								left;
+}
+
+
+
+/* Striscia bianca */
+#logo-wrapper, #content-wrapper {
+	background:								#fff;
+}
+
+/* Striscia rosa  */
+#header-wrapper, #footer-wrapper {
+	background:								#E6E1DD;
+}
+
+
+
+
+
+/**
+ * LOGO
+ */
+#logo-wrapper .lbox {
+	display:								block;
+	position:								relative;
+}
+
+
+
+
+/**
+ * HEADER
+ */
+#header-wrapper .lbox {
+	display:								block;
+	height:									55px;
+	position:								relative;
+}
+
+
+
+
+/**
+ * CONTENT
+ */
+#content-wrapper .lbox {
+	display:								block;
+	position:								relative;
+	
+	min-height:								200px;
+	height:									auto !important;
+	height:									200px;
+	
+	padding:								30px 0;
+	
+}
+
+	#content-wrapper .col {
+		width:								300px;
+		margin-right:						33px;
+		overflow:							hidden;
+	}
+	
+	#content-wrapper .col2 {
+		width:								633px;
+	}
+	
+	#content-wrapper .col-double {
+		width:								465px;
+	}
+	
+	#content-wrapper .col-full {
+		width:								100%;
+		margin:								0;
+	}
+	
+	#content-wrapper .col-last {
+		margin:								0;
+	}
+
+
+/**
+ * FOOTER
+ */
+#footer-wrapper .lbox {
+	display:								block;
+	position:								relative;
+}
+
+
+
+
+/**
+ * CREDITS
+ */
+#credits-wrapper .lbox {
+	display:								block;
+	position:								relative;
+}
+
+
