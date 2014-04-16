@@ -71,7 +71,7 @@ body .nivo-directionNav a {
 	
 	width:55px;
 	height:27px;
-	background: url(arrows.png) no-repeat;
+	background: url(../img/arrows.png) no-repeat;
 }
 body a.nivo-prevNav {
 	left:0px;
