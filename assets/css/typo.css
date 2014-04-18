@@ -127,7 +127,120 @@ body {
 
 
 
+/**/**
+ * cavamvicenza.it
+ * Typography styles.
+ *
+ * Marco Pegoraro
+ * marco(at)adessoweb(dot)biz
+ * 11/09/2010
+ */
+
+
+/* Body Typo */
+body {
+	font-family:							Georgia;
+}
+
+
 /**
+ * Generiche sul contenuto principale della pagina.
+ */
+#content-wrapper {
+	font-family:							"Trebuchet MS";
+	font-size:								0.75em;
+	color:									#949085;
+}
+
+
+/* Global links */
+a {
+	color:									#E01E52;
+}
+a:hover {}
+
+
+/* Global Paragraph */
+p {
+	margin:									0 0 20px 0;
+	line-height:							1.4em;
+}
+
+
+
+/* General Titling Style (with links inside) */
+h1,h2,h3,h4,h5,h6 {
+	margin:									0 0 15px 0;
+}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {}
+
+
+h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
+	color:									#E01E52;
+}
+
+
+/**
+ * Titling Styles (with links inside) 
+ */
+
+h1 {
+	font-size:								2em;
+	font-weight:							normal;
+}
+h1 a {}
+
+h2 {
+	font-size:								1.3em;
+	font-weight:							normal;
+}
+h2 a {}
+
+h3 {
+	font-size:								1em;
+	font-weight:							bold;
+}
+h3 a {}
+
+h4 {
+	font-size:								1em;
+	font-weight:							normal;
+}
+h4 a {}
+
+h5 {
+	font-size:								1em;
+	font-weight:							normal;
+}
+h5 a {}
+
+h6 {
+	font-size:								1em;
+	font-weight:							normal;
+}
+h6 a {}
+
+
+ul, ol {
+	margin:									10px 0 10px 15px;
+	list-style-type:						disc;
+	list-style-position:					outside;
+}
+ul li, ol li {
+	line-height:							1.5em;
+}
+
+ol {
+	list-style-type:						lower-latin;
+	margin-left:							20px;
+}
+ol li {
+}
+
+
+ul li ul, ol li ol {
+	margin-top:								0;
+}
  * CREDITS
  */
 #credits-wrapper .lbox {
