@@ -1,0 +1,135 @@
+/**
+ * CV Form
+ */
+
+.cvform {}
+
+
+
+/**
+ * Generic Field
+ */
+
+/* `Clearfix hack: http://nicolasgallagher.com/micro-clearfix-hack/
+---------------------------------------- */
+.cvform_field:before, .cvform_field:after { 
+	content: ""; 
+	display: table; 
+}
+.cvform_field:after { 
+	clear: both; 
+}
+.cvform_field { 
+	*zoom: 1;
+}
+
+.cvform_field {
+	margin-bottom:1em;
+}
+
+	.cvform_field label {
+		display:block;
+		font-weight:bold;
+		font-size:0.85em;
+	}
+
+
+	.cvform_string, .cvform_text {
+		border:1px solid #444;
+		border-radius:3px;
+		width:70%;
+		padding:1px 5px;
+	}
+	
+	.cvform_text {
+		padding:5px;
+	}
+	
+	.cvform_check {
+		margin-right:10px;
+	}
+	
+	.cvform_help p {
+		margin:0;
+	}
+
+/**
+ * Generic Checkbox Fields
+ */
+.cvform_checkbox label {
+	display:inline;
+	font-weight:normal;
+	font-size:1em;
+}
+
+
+
+
+
+
+
+
+
+/**
+ * Generic Attachment Fields
+ */
+.cvform_attach {}
+
+
+
+
+
+
+
+
+/**
+ * Privacy Field
+ */
+.cvform_privacy {
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+	margin:10px 0;
+	padding:10px;
+	background: #efefee;
+}
+
+
+
+
+
+
+/**
+ * Submit
+ */
+
+.cvform_submit {
+	text-align: right;
+	margin:10px 0;
+	padding:10px 0;
+}
+.cvform_submit input {
+	font-weight:bold;
+	font-size:1.1em;
+}
+
+
+
+/**
+ * Errors & Notifications
+ */
+
+.cvform_errors {
+	color:#900;
+	font-weight:bold;
+	font-size:0.9em;
+	margin:3px auto auto auto;
+}
+
+.cvform_error, .cvform_confirm {
+	border-bottom: 1px solid #000;
+	margin: 0 0 10px 0;
+	padding:0 0 10px 0;
+}
+.cvform_error p, .cvform_confirm p {
+	margin: 0.5em 0;
+}
