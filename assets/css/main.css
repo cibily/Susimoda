@@ -1205,3 +1205,13 @@ a.nivo-prevNav {
 .cvform_confirm p {
   margin: 0.5em 0;
 }
+.jcms-credits {
+  font-family: verdana;
+  font-size: 11px;
+}
+.jcms-credits-row1 {
+  display: inline;
+  margin: 0;
+  padding: 0 10px 1px 10px;
+  border-bottom: 1px solid #444;
+}
