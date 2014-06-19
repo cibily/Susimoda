@@ -4,7 +4,7 @@
  */
 
 
-define('MAIL_DEST', 'silvia.trevellin@gmail.com');
+define('MAIL_DEST', 'commerciale.alessandro@susimoda.it');
 define('MAIL_SUBJECT', 'Nuovo contatto dal sito');
 
  
