@@ -291,7 +291,7 @@ function debug($var = false, $showHtml = false) {
                         <?php endif; ?>
                         <input type="checkbox" name="privacy" class="cvform_check" value="1" id="FormMailPrivacy" />
                         <label for="FormMailPrivacy">Si autorizza il trattamento dei dati personali ai sensi del D. Lgs. n°196 del 30.06.03 come indicato nel
-                            <a target="_blank" title="informativa privacy e gestione dati personali" href="/it/privacy/">documento di informativa sulla privacy e gestione dati personali</a>
+                            <a target="_blank" title="informativa privacy e gestione dati personali" href="./privacy.html">documento di informativa sulla privacy e gestione dati personali</a>
                             in questo sito web.</label><span class="clr clearfix"></span>
                     </div>
 
