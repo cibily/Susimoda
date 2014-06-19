@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 
 function sendMail($from, $to, $sub, $msg) {
-	$headers = 	'From: webmaster@example.com' . "\r\n" .
+	$headers = 	"From: $from" . "\r\n" .
 			    'X-Mailer: PHP/' . phpversion();
 	return mail($to, $sub, $msg, $headers);
 }
